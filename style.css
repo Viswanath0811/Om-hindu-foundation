@@ -179,14 +179,23 @@ textarea, input[type="text"], input[type="email"], input[type="file"] {
     gap: 10px;
   }
 
-  .video-grid, .card-grid {
+  .video-grid,
+  .card-grid {
     flex-direction: column;
   }
 
   .hero h2 {
     font-size: 32px;
   }
+
+  #login-screen {
+    padding: 60px 20px;
+  }
+
+  #login-screen input,
+  #login-screen button {
+    width: 100%;
+    font-size: 16px;
+  }
 }
-#event-card {
-  cursor: pointer;
-}
+
