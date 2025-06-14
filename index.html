@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Om Hindu Foundation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container nav-container">
+      <h1 class="logo">Om Hindu Foundation</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="content.html">Content</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#registration">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Welcome to Om Hindu Foundation</h2>
+        <p>Preserving tradition, celebrating unity.</p>
+        <a href="#registration" class="btn-primary">Join Us</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>We aim to foster cultural and spiritual awareness through educational initiatives, community events, and media content promoting Sanatana Dharma values.</p>
+      </div>
+    </section>
+
+    <section id="content" class="section bg-light">
+      <div class="container">
+        <h2>Explore Our Content</h2>
+        <div class="video-grid">
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/ulHgd8dTL5Y" frameborder="0" allowfullscreen></iframe>
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/PjJPdEFX-nk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+        <p>Visit our full library on <a href="https://www.youtube.com/@ohfmantra/featured" target="_blank">YouTube</a>.</p>
+      </div>
+    </section>
+
+ <section id="events" class="section">
+  <div class="container">
+    <h2>Upcoming Events</h2>
+    <div class="card-grid">
+      <div class="card" id="event-card">
+        <h3>Vedic Chanting Workshop</h3>
+        <p><strong>Date:</strong> July 27, 2025</p>
+        <p><strong>Location:</strong> Om Hindu Foundation Hall, Hyderabad</p>
+        <div id="event-details" style="display: none; margin-top: 10px;">
+          <p>
+            Join us for an enlightening day of guided Vedic chanting and spiritual teachings.
+            Open for all age groups. Lunch & materials provided.
+          </p>
+          <button class="btn-primary" onclick="scrollToRegister(event)">Register Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="registration" class="section bg-light">
+      <div class="container">
+        <h2>Register for Events</h2>
+        <form id="reg-form" class="form">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 Om Hindu Foundation | All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
